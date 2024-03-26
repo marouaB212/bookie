@@ -165,3 +165,110 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+
+}
+nav ul li:first-child {
+    margin-right: 40px; /* Augmenter l'écart entre "Hébergement" et "Activités" */
+}
+nav ul li:last-child {
+    margin-left: 0;
+}
+nav ul li:hover a {
+    border-top: 2px solid blue;
+    transition: border-top 0.3s ease-in-out;
+}
+
+.location-icon {
+    font-size: 20px; /* Taille de l'icône */
+    margin-right: 10px; /* Espacement à droite de l'icône */
+    background-color: #DEEBFF;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+input[type=text] {
+    padding: 10px;
+    border: 10px;
+    border-radius: 220px;
+    outline: none;
+}
+.search-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: darkblue;
+}
+
+.rounded-button {
+    background-color: white;
+    color: blue;
+    border: 2px solid #DEEBFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .rounded-button i {
+    margin-right: 5px;
+  }
+  
+  .bold {
+    font-weight: bold;
+    color: black;
+  }
+
+  .buttons-container {
+    display: flex;
+    align-items: center;
+}
+
+#filtres {
+    margin-right: 20px; 
+}
+
+.rounded-button {
+    margin-right: 15px;
+}
+
+.rounded-button:hover {
+    background-color: #deebff;
+}
+
+/* Style de l'icône d'information */
+.blue-icon {
+    color:  #deebff; /* Couleur de l'icône bleue */
+    margin-right: 10px; /* Marge à droite pour séparer l'icône du texte */
+}
+
+.hebergements img {
+    width: 33%;
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.hebergements {
+    padding: 20px;
+}
